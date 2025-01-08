@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katra Family Business</title>
+    <style>
+        .logo-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    margin: 20px 0; /* Ajoute de l'espace autour du logo */
+}
+
+.logo {
+    width: 150px; /* Largeur du logo */
+    height: 150px; /* Hauteur du logo pour le rendre circulaire */
+    border-radius: 50%; /* Rend l'image ronde */
+    object-fit: cover; /* Garde le ratio d'aspect et remplit le cercle */
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .form-container {
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .promotions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .promotion {
+            margin: 10px;
+            text-align: center;
+        }
+        .promotion img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }.service-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: space-around; /* Espace égal entre les éléments */
+    margin: 20px 0; /* Espace autour de la section */
+}
+
+.service-item {
+    margin: 15px; /* Espace autour de chaque service */
+    text-align: center; /* Centre le texte */
+    width: calc(25% - 30px); /* Largeur des éléments (ajustez selon vos besoins) */
+}
+
+.service-image {
+    width: 100%; /* Rendre l'image responsive */
+    height: auto; /* Garde le ratio d'aspect */
+    border-radius: 5px; /* Coins arrondis pour les images */
+}
+.media-container {
+    display: flex;
+    justify-content: space-around; /* Espace égal entre les items */
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+    margin: 20px 0; /* Ajoute de l'espace autour de la section */
+}
+
+.media-item {
+    margin: 10px;
+    text-align: center; /* Centre le texte */
+}
+
+.service-image {
+    width: 200px; /* Largeur des images */
+    height: auto; /* Garde le ratio d'aspect */
+    border-radius: 5px; /* Coins arrondis pour les images */
+    margin-bottom: 10px; /* Espace sous les images */
+}
+
+.service-video {
+    width: 300px; /* Largeur des vidéos */
+    height: auto; /* Garde le ratio d'aspect */
+    margin-top: 10px; /* Espace au-dessus des vidéos */
+}
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Katra Family Business</h1>
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Logo de Katra Family Business" class="logo">
+    </div>
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#chicken">Katra Chicken</a>
+        <a href="#photography">Katra Design Photographie</a>
+        <a href="#surprises">Katra Événements Surprise</a>
+        <a href="#trans">Katra Trans</a>
+        <a href="#katra72h">Katra 72heuresmax</a> 
+        <a href="#painting">Katra Peinture</a>
+        <a href="#Nos_oeuvres.html">Nos oeuvres</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Promotions Actuelles</h2>
+    <div class="promotions">
+        <div class="promotion">
+            <img src="images/promotion1.jpg" alt="Promotion 1">
+            <p>Promotion Spéciale Bonne année !</p>
+        </div>
+        <div class="promotion">
+            <img src="images/promotion2.jpg" alt="Promotion 2">
+            <p>Réduction sur les Séances Photo pour Mariage !</p>
+        </div>
+        <div class="promotion">
+            <img src="images/promotion3.jpg" alt="Promotion 3">
+            <p>Offre Spéciale sur les Événements Surprise !</p>
+        </div>
+    </div>
+</section>
+
+<section id="chicken">
+    <h2>Katra Chicken</h2>
+    <div class="product">
+        <img src="images/poussin.jpg" alt="Poussin">
+        <div>
+            <p>Poussin<br>Livraison chaque mercredi et jeudi<br>Prix : 1$</p>
+            <a href="https://api.whatsapp.com/send?phone=243974600012&text=Je%20veux%20passer%20ma%20commande%20pour%20des%20poussins." target="_blank">
+                Cliquez ici pour passer votre commande
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/poulet_sur_pied.jpg" alt="Poulet sur pied">
+        <div>
+            <p>Poulet sur pied<br>Bonne qualité et très propre<br>Prix : Stock 0</p>
+            <a href="https://api.whatsapp.com/send?phone=243974600012&text=Je%20veux%20passer%20ma%20commande%20pour%20du%20poulet%20sur%20pied." target="_blank">
+                Cliquez ici pour passer votre commande
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/poulet_abattu.jpg" alt="Poulet abattu">
+        <div>
+            <p>Poulet abattu<br>Très propre, parfait pour vos repas<br>Prix : Stock 0</p>
+            <a href="https://api.whatsapp.com/send?phone=243977959165&text=Je%20veux%20passer%20ma%20commande%20pour%20du%20poulet%20abattu." target="_blank">
+                Cliquez ici pour passer votre commande
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="photography">
+    <h2>Katra Design Photographie</h2>
+    <div class="product">
+        <img src="images/seance_photo.jpg" alt="Séance photo">
+        <div>
+            <p>Séance photo<br>Prix : 25$/heure</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20une%20séance%20photo." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/mariage.jpg" alt="Mariage">
+        <div>
+            <p>Mariage<br>Prix : 200$</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20un%20mariage." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/dot.jpg" alt="Dot">
+        <div>
+            <p>Dot<br>Prix : 80$</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20un%20dot." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/pre_dot.jpg" alt="Pré dot">
+        <div>
+            <p>Pré-dote<br>Prix : 60$</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20une%20pré-dote." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="surprises">
+    <h2>Katra Événements Surprise</h2>
+    <div class="product">
+        <img src="images/bouquet.jpg" alt="Bouquet">
+        <div>
+            <p>Bouquet<br>Prix : 25$</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20un%20bouquet." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/surprise_fiançailles.jpg" alt="Surprise fiançailles">
+        <div>
+            <p>Surprise fiançailles<br>Avec décoration : 100$<br>Sans décoration : 50$</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20une%20surprise%20fiancailles." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/surprise_anniversaire.jpg" alt="Surprise anniversaire">
+        <div>
+            <p>Surprise anniversaire<br>Prix : 50$ - 100$ - 150$ - 200$</p>
+            <a href="https://api.whatsapp.com/send?phone=243976044412&text=Je%20veux%20faire%20une%20réservation%20pour%20une%20surprise%20anniversaire." target="_blank">
+                Cliquez ici et faites votre réservation
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="trans">
+    <h2>Katra Trans</h2>
+    <div class="product">
+        <img src="images/camion.jpg" alt="Camion" style="width: 100px; height: 100px; margin-right: 20px;">
+        <div>
+            <p>Location de camion<br>Contactez-nous pour plus d'informations.</p>
+            <a href="https://api.whatsapp.com/send?phone=243813037559&text=Je%20veux%20réserver%20un%20camion." target="_blank">
+                Contactez nous en cliquant ici
+            </a>
+        </div>
+    </div>
+    
+    <!-- Formulaire de réservation -->
+    <div class="form-container">
+        <h3>Réserver un camion</h3>
+        <form id="reservationForm" onsubmit="submitReservation(event)">
+            <input type="text" id="resName" placeholder="Votre nom" required>
+            <input type="tel" id="resPhone" placeholder="Votre numéro de téléphone" required>
+            <input type="date" id="resDate" required>
+            <input type="time" id="resTime" required>
+            <textarea id="resMessage" placeholder="Détails supplémentaires" rows="4"></textarea>
+            <button type="submit">Réserver</button>
+        </form>
+    </div>
+</section>
+
+<section id="katra72h">
+    <h2>Katra 72heuresmax</h2>
+    <p>Candidats ingénieur, nous sommes là pour toi !</p>
+   
+    <div class="service-container">
+        <div class="service-item">
+            <h3>Installation des logiciels avec crack</h3>
+            <img src="images/installation_logiciels.jpg" alt="Installation des logiciels" class="service-image">
+            <p>Nous installons tous les logiciels avec crack, accès illimité.</p>
+        </div>
+       
+        <div class="service-item">
+            <h3>Conception des systèmes</h3>
+            <img src="images/conception_systemes.jpg" alt="Conception des systèmes" class="service-image">
+            <p>Nous créons des systèmes adaptés à vos besoins spécifiques.</p>
+        </div>
+       
+        <div class="service-item">
+            <h3>Modélisation et simulation des systèmes</h3>
+            <img src="images/modelisation_simulation.jpg" alt="Modélisation et simulation" class="service-image">
+            <p>Nous modélisons et simulons des systèmes pour analyser leur fonctionnement.</p>
+        </div>
+       
+        <div class="service-item">
+            <h3>Co-direction de mémoire de fin d'études</h3>
+            <img src="images/co_direction.jpg" alt="Co-direction de mémoire" class="service-image">
+            <p>Nous vous accompagnons dans la rédaction de votre mémoire de fin d'études.</p>
+
+    <a href="https://api.whatsapp.com/send?phone=243998111655&text=Je%20veux%20faire%20une%20réservation%20pour%20une%20surprise%20anniversaire." target="_blank">
+                Rejoins nous en cliquant ici
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="Nos oeuvres">
+    <h2>Nos oeuvres</h2>
+    <div class="media-container">
+        <div class="media-item">
+            <h3>Photos</h3>
+            <img src="images/service1.jpg" alt="Service 1" class="service-image">
+            <img src="images/service2.jpg" alt="Service 2" class="service-image">
+            <img src="images/service3.jpg" alt="Service 3" class="service-image">
+        </div>
+        <div class="media-item">
+            <h3>Vidéos</h3>
+            <video controls class="service-video">
+                <source src="videos/service1.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+            <video controls class="service-video">
+                <source src="videos/service2.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+        </div>
+    </div>
+</section>
+
+<section id="painting">
+    <h2>Katra Peinture</h2>
+    <p>Services de peinture et renovation des structures metalliques</p>
+    <ul>
+      
+    </ul>
+    <a href="https://api.whatsapp.com/send?phone=243813037559&text=Je%20veux%20réserver%20un%20service%20de%20peinture." target="_blank">
+        Réservez par WhatsApp
+    </a>
+</section>
+
+<div class="form-container" id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" onsubmit="sendWhatsApp(event)">
+        <input type="text" id="name" placeholder="Votre nom" required>
+        <input type="tel" id="phone" placeholder="Votre numéro de téléphone" required>
+        <textarea id="message" placeholder="Votre message" rows="4" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2025 Katra Family Business. L'excellence à chaque service.</p>
+    <div class="contact">Contact: +243 974600012</div>
+</footer>
+
+<script>
+    function sendWhatsApp(event) {
+        event.preventDefault(); // Empêche l'envoi classique du formulaire
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const message = document.getElementById('message').value;
+
+        const whatsappMessage = `Nom: ${name}%0ATéléphone: ${phone}%0AMessage: ${message}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=243974600012&text=${whatsappMessage}`;
+
+        window.open(whatsappUrl);
+    }
+
+    function submitReservation(event) {
+        event.preventDefault(); // Empêche l'envoi classique du formulaire
+        const resName = document.getElementById('resName').value;
+        const resPhone = document.getElementById('resPhone').value;
+        const resDate = document.getElementById('resDate').value;
+        const resTime = document.getElementById('resTime').value;
+        const resMessage = document.getElementById('resMessage').value;
+
+        const whatsappMessage = `Nom: ${resName}%0ATéléphone: ${resPhone}%0ADate: ${resDate}%0AHoraire: ${resTime}%0ADétails: ${resMessage}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=243813037559&text=${whatsappMessage}`;
+
+        window.open(whatsappUrl);
+    }
+</script>
+
+</body>
+</html>
+
